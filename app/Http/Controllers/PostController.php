@@ -23,7 +23,7 @@ class PostController extends Controller
     public function blog()
     {
         return view('blog' , [
-            "title" => "About"
+            "title" => "Blog Post"
         ]);
     }
     

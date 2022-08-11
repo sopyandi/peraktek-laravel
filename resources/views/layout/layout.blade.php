@@ -8,23 +8,21 @@
     <title>{{$title}}</title>
 </head>
 <body>
-    <div class="header">
-        
-    <center><h3>header</h3></center>
+    <div class="header">    
+        <center><h3>header</h3></center>
     </div>
     <center><div class="link">
         <h3>
             <a href="/">Home</a> ||
             <a href="about">About</a> ||
             <a href="blog">Blog Post</a>
-         </h3>     
+        </h3>     
     </div>
-    </center>
-    <br><br>
+</center>
+<br><br>
     @yield('container')
-    <br><br>
-    <div class="footer">
+    <!-- <div class="footer">
     <center><h3>Footer</h3></center>
-    </div>
+    </div> -->
 </body>
 </html>
