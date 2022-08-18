@@ -1,9 +1,27 @@
-.box{
-    width:25%;
-    height:420px;
-    background-color:yellow;
-    position:fixed;
+#img{
+    width:40%;
+    height:250px;
     border-radius:10px;
+    margin-left:5%;
+}
+.box{
+    width:40%;
+    height:100px;
+    background-color:rgba(70, 70, 70, 0.432);
+    position:relative;
+    border-radius:10px;
+    margin-left:5%;
+    margin-top:-9.3%;
+    text-align:center;
+    
+}
+.box a,p{
+    text-decoration:none;
+    color:white;
+}
+ a :hover{
+    zoom: 110%;
+    color:red;
 }
 .header , .footer {
     width:100%;
@@ -34,7 +52,7 @@ body{
     margin-top:-1.6%;
     border-radius:10px;
 }
-a{
+#a a{
     text-decoration: none;
     color:salmon;
 }

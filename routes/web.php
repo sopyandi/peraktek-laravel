@@ -17,3 +17,6 @@ use App\Http\Controllers\PostController;
 Route::get('/', [PostController::class, 'home']);
 Route::get('/about', [PostController::class, 'about']);
 Route::get('/blog', [PostController::class, 'blog']);
+// singgle blog
+Route::get('/blog/{slug}', [PostController::class, 'blog']);
+

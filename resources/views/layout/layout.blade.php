@@ -13,9 +13,11 @@
     </div>
     <center><div class="link">
         <h3>
+            <div id="a">
             <a href="/">Home</a> ||
             <a href="about">About</a> ||
             <a href="blog">Blog Post</a>
+            </div>
         </h3>     
     </div>
 </center>
